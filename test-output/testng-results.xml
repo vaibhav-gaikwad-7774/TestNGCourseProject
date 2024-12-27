@@ -2,60 +2,24 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-27T12:00:01 IST" name="Default suite" finished-at="2024-12-27T12:00:01 IST" duration-ms="108">
+  <suite started-at="2024-12-27T12:25:53 IST" name="Default suite" finished-at="2024-12-27T12:25:53 IST" duration-ms="78">
     <groups>
     </groups>
-    <test started-at="2024-12-27T12:00:01 IST" name="Default test" finished-at="2024-12-27T12:00:01 IST" duration-ms="108">
-      <class name="com.example.tests.DataProviderExample">
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.example.tests.DataProviderExample@1e04fa0a]" started-at="2024-12-27T12:00:01 IST" name="loginTest" data-provider="loginData" finished-at="2024-12-27T12:00:01 IST" duration-ms="8" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password1]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-12-27T12:25:53 IST" name="Default test" finished-at="2024-12-27T12:25:53 IST" duration-ms="78">
+      <class name="com.example.tests.FactoryExample">
+        <test-method signature="testConfiguration()[pri:0, instance:com.example.tests.FactoryExample@3d6f0054, instance params:[]]" started-at="2024-12-27T12:25:53 IST" name="testConfiguration" finished-at="2024-12-27T12:25:53 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.example.tests.DataProviderExample@1e04fa0a]" started-at="2024-12-27T12:00:01 IST" name="loginTest" data-provider="loginData" finished-at="2024-12-27T12:00:01 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password2]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- testConfiguration -->
+        <test-method signature="testConfiguration()[pri:0, instance:com.example.tests.FactoryExample@505fc5a4, instance params:[]]" started-at="2024-12-27T12:25:53 IST" name="testConfiguration" finished-at="2024-12-27T12:25:53 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.example.tests.DataProviderExample@1e04fa0a]" started-at="2024-12-27T12:00:01 IST" name="loginTest" data-provider="loginData" finished-at="2024-12-27T12:00:01 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password3]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- testConfiguration -->
+        <test-method signature="testConfiguration()[pri:0, instance:com.example.tests.FactoryExample@5fbdfdcf, instance params:[]]" started-at="2024-12-27T12:25:53 IST" name="testConfiguration" finished-at="2024-12-27T12:25:53 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-      </class> <!-- com.example.tests.DataProviderExample -->
+        </test-method> <!-- testConfiguration -->
+      </class> <!-- com.example.tests.FactoryExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
