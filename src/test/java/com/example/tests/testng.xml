@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestNG Suite">
+    
+    <!-- Smoke and Regression Tests -->
+    <test name="Smoke and Regression Tests">
+        <groups>
+            <run>
+                <!-- Include the groups for smoke and regression -->
+                <include name="smoke"/>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <!-- Specify the class with the tests -->
+            <class name="com.example.tests.TestExample"/>
+        </classes>
+    </test>
+    
+    <!-- Functional and Performance Tests -->
+    <test name="Functional and Performance Tests">
+        <groups>
+            <run>
+                <!-- Include functional and performance groups -->
+                <include name="functional"/>
+                <include name="performance"/>
+            </run>
+        </groups>
+        <classes>
+            <!-- Specify the class with the tests -->
+            <class name="com.example.tests.TestExample"/>
+        </classes>
+    </test>
+
+</suite>
