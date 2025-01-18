@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="assertion.SoftAssertionExamplesTest">
+      <class name="com.example.tests.ExcelDataProviderTest">
         <methods>
-          <include name="testNormalAssertions"/>
-          <include name="testSoftAssertions"/>
+          <include name="testLogin"/>
         </methods>
-      </class> <!-- assertion.SoftAssertionExamplesTest -->
+      </class> <!-- com.example.tests.ExcelDataProviderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
